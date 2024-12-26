@@ -30,7 +30,7 @@ const uploadImageController = async (req, res) => {
 
     res.status(201).json({
       success: true,
-      message: "Imaged uploaded successfully",
+      message: "Image uploaded successfully",
       image: newlyUploadedImage,
     });
   } catch (error) {
